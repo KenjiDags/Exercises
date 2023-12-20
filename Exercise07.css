@@ -1,0 +1,77 @@
+body{
+    background-color: lightblue;
+}
+
+
+.header{
+    border-radius: 15px;
+    padding: 1px;
+    text-align: center;
+    background-color: yellow;
+
+    text-align: center;
+
+}
+  
+
+h1{
+    font-size: 50px;
+}
+  .menu li {
+    width: 200px;
+    padding: 20px ;
+    margin-bottom: 7px;
+    border: 1px;
+    color: black;
+    float: left;
+    
+  }
+
+  .menu li:hover {
+    background-color: black;
+  }
+  
+  
+  .white{
+    background-color: white;
+  
+  }
+
+  .blue{
+    background-color: blue;
+  }
+
+  
+  .red{
+    background-color: red;
+  }
+
+  .menu {width: 25%;}
+
+.center-p{
+   right: 400px;
+   position: absolute;
+}
+
+img{
+    float: right;
+    height: 720px;
+    width: 400px;
+  
+}
+
+.footer{
+   
+        background-color:yellow;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    
+}
+
+
+
+ 

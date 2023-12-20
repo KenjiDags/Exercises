@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.parent-box {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.child-box {
+    background-color: #a0e57e;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.grandchild-box {
+    background-color: #add8e6;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.parent-box p,
+.child-box p,
+.grandchild-box p {
+    margin: 0;
+    color: #333;
+}

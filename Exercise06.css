@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create a 3-column layout */
+    grid-gap: 20px; /* Add a gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    height: 100vh;
+}
+
+.item {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Change to a single column layout on smaller screens */
+    }
+}
